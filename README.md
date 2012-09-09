@@ -1,7 +1,7 @@
 playgrounds
 ===========
 
-playground website for alexandria
+playground website for alexandria - Development app being staged at http://projectplay.herokuapp.com
 
 --------------------------------
 
