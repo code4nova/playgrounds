@@ -1,0 +1,17 @@
+Here is a rough list of commands I ran to get this up and running. Delete this once you get this all moved into a Puppet script or whatever.
+
+
+sudo apt-get install autoconf automake bison build-essential curl libc6-dev libreadline6 libreadline6-dev libsqlite3-0 libsqlite3-dev libssl-dev libtool libxml2-dev libxslt-dev libxslt1-dev libyaml-dev ncurses-dev openssl sqlite3 zlib1g zlib1g-dev
+sudo gem install rails
+curl -L https://get.rvm.io | bash -s stable --ruby
+source /home/colin/.rvm/scripts/rvm
+rvm get latest
+rvm gemset use global
+gem install rails
+sudo apt-get install sqlite3 libsqlite3-dev
+git clone git://github.com/sarl-hackerspace/playgrounds.git
+cd playgrounds/projectplay/
+bundle install
+bundle exec rake db:migrate
+bundle exec rake db:seed
+
